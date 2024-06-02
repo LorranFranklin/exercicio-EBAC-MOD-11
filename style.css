@@ -93,22 +93,40 @@ h2 {
   padding: 50px 0;
 }
 
+.produtos h2 {
+  margin-bottom: 50px;
+}
+
 .produtos-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 20px;
 }
 
-.produto img {
+article img {
   width: 100%;
 }
 
 article {
-  margin-top: 30px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+  font-weight: 500;
+  font-size: large;
+}
+
+article .price {
+  letter-spacing: 5px;
+  font-size: small;
+  margin: 20px 0;
 }
 
 button {
-  margin-top: 15px;
   width: 100%;
   padding: 10px 20px;
   background-color: #0096ff;
