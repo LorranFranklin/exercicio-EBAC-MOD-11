@@ -163,7 +163,7 @@ button:hover {
 
 @media screen and (max-width: 425px) {
   header {
-    padding: 0 50px;
+    padding: 0;
   }
 
   .container {
