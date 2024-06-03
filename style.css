@@ -142,23 +142,23 @@ button:hover {
 
 @media screen and (max-width: 900px) {
   .sobre {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .container {
     padding: 0 20px;
   }
   .produtos-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
   header {
-    padding: 10px;
+    padding: 0 50px;
   }
 
   .container {
-    padding: 0 10px;
+    padding: 0 30px;
   }
 
   header .container h1 {
