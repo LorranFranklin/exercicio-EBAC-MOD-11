@@ -171,6 +171,7 @@ button:hover {
 
   .sobre {
     padding: 20px 0;
+    grid-template-columns: 1fr;
   }
 
   .sobre-texto p {
