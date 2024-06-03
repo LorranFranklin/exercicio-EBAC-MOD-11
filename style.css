@@ -153,6 +153,15 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    padding: 30px;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  nav {
+    display: none;
+  }
   .sobre {
     grid-template-columns: 1fr;
   }
@@ -163,7 +172,7 @@ button:hover {
 
 @media screen and (max-width: 425px) {
   header {
-    padding: 0;
+    padding: 20px;
   }
 
   .container {
