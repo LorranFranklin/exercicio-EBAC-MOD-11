@@ -152,6 +152,15 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .sobre {
+    grid-template-columns: 1fr;
+  }
+  .produtos-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media screen and (max-width: 425px) {
   header {
     padding: 0 50px;
